@@ -27,6 +27,7 @@ class _MoviePageState extends State<MoviePage> {
 
   _initScrollListener() {
     _scrollController.addListener(() async {
+      // Verifica se a posição de rolagem atual (offset) é maior ou igual ao limite máximo de rolagem
       if (_scrollController.offset >=
           _scrollController.position.maxScrollExtent) {
         if (_controller.currentPage == lastPage) {
@@ -79,6 +80,7 @@ class _MoviePageState extends State<MoviePage> {
       return CenteredMessage(message: _controller.movieError?.message ?? '');
     }
 
+    // inicia um builder que cria uma grade de widgets de forma eficiente
     return GridView.builder(
       controller: _scrollController,
       padding: const EdgeInsets.all(2.0),
