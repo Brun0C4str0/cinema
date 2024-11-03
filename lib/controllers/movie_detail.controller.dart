@@ -11,6 +11,7 @@ class MovieDetailController {
 
   bool loading = true;
 
+  // define um metodo assincrono que busca os detalhes de um filme pela ID
   Future<Either<MovieError, MovieDetailModel>> fetchMovieById(int id) async {
     movieError = null;
     final result = await _repository.fetchMovieById(id);
