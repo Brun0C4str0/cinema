@@ -6,6 +6,7 @@ const KApiKey = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NzhmMzUwYmJmZjExYTYyYzZhNmNlYT
 
 const KServerError = 'Failed to connect to the server. Tye again later.';
 
+// uma constante kDioOptions que armazena as opções de configuração para uma instancia do Dio
 final kDioOptions = BaseOptions(
   baseUrl: KBaseUrl,
   connectTimeout: const Duration(seconds: 5000),
