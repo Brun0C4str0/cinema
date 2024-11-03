@@ -16,5 +16,5 @@ O TMDb é um banco de dados de filmes e séries gratuito e de fonte aberta, sua 
 
 ## Conclusão
 
-Este projeto é um dos trabalhos finais da parte de programação do curso de TI do Senac, caso encontrar erros ou tiver ideias que possam melhorar o projeto fiquem a vontade para conserta-lo ou aprimora-lo como puderem. E se tiverem interesse em desejar saber mais como o projeto funciona, clique no link --> https://github.com/brunoverc/flutter.movies.
+Este projeto é um dos trabalhos finais da parte de programação do curso de TI do Senac, caso encontrem erros ou tiver ideias que possam melhorar o projeto fiquem a vontade para modifica-lo o quanto quiserem. E se tiverem interesse e desejar saber mais sobre como o projeto funciona, clique no link --> https://github.com/brunoverc/flutter.movies.
 
