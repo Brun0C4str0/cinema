@@ -13,6 +13,7 @@ class MovieDetailPage extends StatefulWidget {
   @override
   _MovieDetailPageState createState() => _MovieDetailPageState();
 }
+// sobrescreve o metodo createState(), que cria a instancia do estado associado a este widget
 
 class _MovieDetailPageState extends State<MovieDetailPage> {
   final _controller = MovieDetailController();
@@ -23,6 +24,7 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
     _initialize();
   }
 
+  // atualiza o estado para indicar que os dados estao sendo carregados
   _initialize() async {
     setState(() {
       _controller.loading = true;
@@ -49,6 +51,7 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
     );
   }
 
+  // se os dados estao sendo carregados, retorna um widget que exibe um indicador de progresso centralizado
   _buildMovieDetail() {
     if (_controller.loading) {
       return CenteredProgress();
@@ -76,6 +79,7 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
     );
   }
 
+  // metodo que constroi a seção de status do filme
   _buildStatus() {
     return Container(
       padding: const EdgeInsets.all(10.0),
