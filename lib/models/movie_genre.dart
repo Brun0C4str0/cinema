@@ -11,6 +11,7 @@ class MovieGenre {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
+    // cria um novo mapa que sera preenchido com os dados da instancia
     data['id'] = this.id;
     data['name'] = this.name;
     return data;
