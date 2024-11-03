@@ -1,16 +1,20 @@
-# src
+# Projeto Flutter - Trabalho do curso de TI do Senac
 
-A new Flutter project.
+Este é um projeto Flutter que usa o The Movie Database (TMDb), uma API que busca informações sobre os filmes mais populares do momento.
 
-## Getting Started
+## Descrição
 
-This project is a starting point for a Flutter application.
+O TMDb é um banco de dados de filmes e séries gratuito e de fonte aberta, sua função é disponibilizar informações dos filmes mais populares e recém-chegados ao cinema. Dentre estas informações estão: sinpose, classificação indicativa e data de lançamento.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Características do Projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Mostra os filmes mais recentes a serem exibidos no cinema.
+- Permite ao usuário ver informações destes filmes como a sinopse.
+
+
+
+## Conclusão
+
+Este projeto é um dos trabalhos finais da parte de programação do curso de TI do Senac, caso encontrar erros ou tiver ideias que possam melhorar o projeto fiquem a vontade para conserta-lo ou aprimora-lo como puderem. E se tiverem interesse em desejar saber mais como o projeto funciona, clique no link --> https://github.com/brunoverc/flutter.movies.
+
